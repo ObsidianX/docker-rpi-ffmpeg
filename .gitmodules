@@ -1,0 +1,9 @@
+[submodule "src/ffmpeg"]
+	path = src/ffmpeg
+	url = git://source.ffmpeg.org/ffmpeg.git
+[submodule "src/alsa-lib"]
+	path = src/alsa-lib
+	url = git://git.alsa-project.org/alsa-lib.git
+[submodule "src/x264"]
+	path = src/x264
+	url = http://git.videolan.org/git/x264.git
