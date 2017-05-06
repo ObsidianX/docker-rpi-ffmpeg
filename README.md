@@ -10,8 +10,8 @@ chmod +x ~/bin/rpxc
 
 == Setup FFmpeg build image ==
 ```bash
-./docker-build.sh
-./build.sh
+make docker
+make
 cd output
 scp *.deb pi@raspberrypi.local:.
 ```
