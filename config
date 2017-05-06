@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export TOP="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+export SRC_DIR=${TOP}/src
+export RPXC_IMAGE=rpi-ffmpeg
+export NCORES=$(grep -c ^processor /proc/cpuinfo)
+export TEMP_DESTDIR=${TOP}/output
